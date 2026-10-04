@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <h1>Laboratorio 05: Node.js, npm y Servidor HTTP</h1>
+    <h1>REGISTRO DE ESTUDIANTES</h1>
     <p>Introducción al Desarrollo Web &middot; Ingeniería de Sistemas &middot; UNSA</p>
   </header>
 
@@ -20,13 +20,13 @@
         <label>Código <input name="codigo" required></label>
         <label>Carrera <input name="carrera" value="Ingeniería de Sistemas" required></label>
         <label>Semestre <input name="semestre" type="number" min="1" max="12"></label>
-        <button type="submit">Guardar (POST)</button>
+        <button type="submit">Guardar</button>
       </form>
       <p id="mensaje" role="status"></p>
     </section>
 
     <section class="card">
-      <h2>Lista de estudiantes <small>(GET /api/estudiantes)</small></h2>
+      <h2>Lista de estudiantes <small></small></h2>
       <table>
         <thead><tr><th>ID</th><th>Nombre</th><th>Código</th><th>Carrera</th><th>Semestre</th></tr></thead>
         <tbody id="tabla"></tbody>
